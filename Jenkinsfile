@@ -10,6 +10,7 @@ pipeline{
     steps{
       sh "mkdir folder1"
       sh "touch f1 f2"
+      sh "touch f3"
     }
   }
  } 
