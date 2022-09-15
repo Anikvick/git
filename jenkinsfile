@@ -8,7 +8,7 @@ pipeline{
  stages{
   stage("first"){
     steps{
-      sh "mkdir folder1"
+      sh "mkdir folder2"
       sh "touch f1 f2"
       sh "touch f3"
     }
